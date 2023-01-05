@@ -13,17 +13,55 @@ body {
     height: 100vh;
     font-family: 'Smythe', cursive;
     font-size: 18px;
-    background-color: #EDEDED;
     max-width: 700px;
     margin: auto;
 }
 
 header {
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-image: url('imgs/header-img.jpg');
     background-color: black;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
     color: white;
+}
+
+main {
+    padding: 2rem;
+    color: #3C3C3C;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: #D2D2D2 1px solid;
+    padding: 2rem 0;
+}
+.item-emoji {
+    font-size: 4rem;
+}
+.Pizza {
+    margin-left: -15rem
+}
+.Hamburger {
+    margin-left: -20rem
+}
+.Beer {
+    margin-left: -18rem;
+}
+.item-ingredients {
+    color: #8B8B8B;
+}
+.item-price {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.add-btn {
+    font-size: 2rem;
+    border-radius: 100%;
+    border: #DEDEDE 1px solid;
+    background-color: white;
+    padding: 0.5rem 1rem;
 }
