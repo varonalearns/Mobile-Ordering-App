@@ -47,7 +47,7 @@ Happy Coding!
 Requirements:
 
 - Follow the design spec
-- Render the meny options using JavaScript
+- Render the menu options using JavaScript
 - Be able to add/remove items
 
 Stretch Goals:
