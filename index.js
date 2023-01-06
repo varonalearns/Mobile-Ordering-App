@@ -11,7 +11,7 @@ function getFeedHtml() {
         feedHtml +=
             `<section class="item">
                 <div class="item-emoji">${item.emoji}</div>
-                <div class="item-details ${item.name}">
+                <div class="item-details">
                     <h2>${item.name}</h2>
                     <p class="item-ingredients">${item.ingredients}</p>
                     <p class="item-price">$${item.price}</p>

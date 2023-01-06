@@ -41,15 +41,10 @@ main {
 }
 .item-emoji {
     font-size: 4rem;
+    width: 100px;
 }
-.Pizza {
-    margin-left: -15rem
-}
-.Hamburger {
-    margin-left: -20rem
-}
-.Beer {
-    margin-left: -18rem;
+.item-details {
+    width: 400px;
 }
 .item-ingredients {
     color: #8B8B8B;
