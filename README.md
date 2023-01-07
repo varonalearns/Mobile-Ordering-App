@@ -62,7 +62,7 @@ Stretch Goals:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/varonalearns/Mobile-Ordering-App)
-- Live Site URL: [Netlify Live Site](https://app.netlify.com/sites/effortless-arithmetic-cef6e8/overview)
+- Live Site URL: [Netlify Live Site](https://effortless-arithmetic-cef6e8.netlify.app)
 
 ## My process
 
