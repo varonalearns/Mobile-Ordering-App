@@ -37,7 +37,6 @@ Happy Coding!
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -58,7 +57,7 @@ Stretch Goals:
 
 ### Screenshot
 
-![Mobile Screen Recording](imgs/ss-mobile.gif)
+![Desktop Screen Recording](imgs/ss-desktop.gif)
 
 ### Links
 
@@ -72,14 +71,15 @@ Stretch Goals:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 - Vanilla JavaScript
 
 ### What I learned
 
+I learned that I still have a long ways to go. This project was really hard for me to do and there are a lot of elements that I am unhappy with. I see myself coming back to this project in the future, scrapping all my work, and restarting to get it right. Perhaps more practice and experience will make this project a breeze. This project was really humbling. Again, I learned that I know nothing.
+
 ### Continued development
 
-### Useful resources
+I will continue to develop my DOM manipulating skills and will review JavaScript so I can think of better ways to implement features that are desired in an app, etc.
 
 ## Author
 
