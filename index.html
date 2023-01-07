@@ -25,8 +25,19 @@
             <h2>Your order</h2>
         </div>
         <div class="total-price"></div>
-        <button id="checkout-btn">Complete order</button>
+        <button id="checkout-btn" class="btn">Complete order</button>
     </footer>
+    <div class="hidden modal">
+        <h2>Enter card details</h2>
+        <form>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter your card number" required>
+            <input type="text" placeholder="Enter CVV" required>
+            <input type="submit" value="Pay" class="btn">
+        </form>
+    </div>
+    <div class="hidden thank-you-message">Thank you! Your order is on its way!</p>
+    </div>
     <script src="index.js" type="module"></script>
 </body>
 </html>

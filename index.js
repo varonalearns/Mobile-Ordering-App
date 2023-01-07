@@ -1,5 +1,6 @@
 import { menuArray } from '/data.js'
 
+// --- This section renders the menu based on the menuArray ---
 function getMenuHtml() {
     let menuHtml = ``
 
@@ -25,14 +26,18 @@ function renderMenu() {
 
 renderMenu()
 
-// --- Handle when Add button is clicked ---
+// --- This section handles any clicks on the DOM ---
 let totalPrice = 0;
 document.addEventListener('click', function(e) {
     if(e.target.dataset.id) {
         handleAddClick(e.target.dataset.id)
     }
+    if(e.target.id === 'checkout-btn') {
+        handlePaymentModal()
+    }
 })
 
+// Pre-checkout State
 function handleAddClick(itemId) {
     totalPrice += menuArray[itemId].price
     renderOrder(getOrderHtml(itemId))
@@ -69,4 +74,13 @@ function getTotalPriceHtml() {
     return totalPriceHtml
 }
 
-// --- Order list and checkout end ---
+// Checkout Payment Modal state
+function handlePaymentModal() {
+    document.querySelector('.modal').classList.remove('hidden')
+    document.querySelector('form').addEventListener('submit', function(e) {
+        e.preventDefault()
+        document.querySelector('.modal').classList.add('hidden')
+        document.querySelector('footer').classList.add('hidden')
+        document.querySelector('.thank-you-message').classList.remove('hidden')
+    })
+}
