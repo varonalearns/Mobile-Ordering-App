@@ -2,7 +2,7 @@
     Default Mobile Design
 ------------------------------------------------------------------------------*/
 
-/* General */
+/*------------General------------*/
 *, ::before, ::after {
     margin: 0;
     padding: 0;
@@ -27,8 +27,9 @@ header {
     color: white;
 }
 
+/*------------Main section------------*/
 main {
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     color: #3C3C3C;
 }
 
@@ -59,4 +60,60 @@ main {
     border: #DEDEDE 1px solid;
     background-color: white;
     padding: 0.5rem 1rem;
+}
+
+/*------------Footer section------------*/
+footer {
+    padding: 2rem;
+}
+.hidden {
+    display: none;
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Order List */
+.order-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.order-details h3 {
+    width: 115px;
+    font-size: 28px;
+}
+.order-remove {
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    color: #BBBBBB;
+    width: 500px;
+}
+
+/* Total Price */
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: #393333 2px solid;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+/* Checkout button */
+#checkout-btn {
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #16DB99;
+    padding: 1.5rem;
+    border: none;
 }
